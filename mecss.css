@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Times, serif;
+    color: white;
+    background-color: black;
+  }
+  
+  .container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+  }
+  
+  .header {
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+  }
+  
+  header > .title {
+    margin-bottom: 1rem;
+  }
+  
+  .t {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+  }
+  
+  .t blockquote {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .t img {
+    text-align: left;
+    max-width: 100%;
+  }
+  
+  .bio {
+    margin: 2rem auto;
+    
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+    animation: marquee 11s linear infinite;
+  }
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-100%); } 
+    }
+  
+  
+  .bio > h2 {
+    margin-bottom: 1rem;
+  
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  
+  
+  .bio > p {
+    font-size: 1.2rem;
+    marquee-width ="60%" direction="up" height="100px";
+    text-align: center;
+    line-height: 1.6;
+    animation: marquee 11s linear infinite;
+  }
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); } 
+  }
+
+  
+  .bio > hr {
+    
+    margin-top: 2rem;
+  }
+  .center  {
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    padding: 15px 22px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: downstream;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+.button:active {
+    color: black;
+    
+}
+  
